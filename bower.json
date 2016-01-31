@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe",
+  "description": "web game",
+  "main": "index.js",
+  "authors": [
+    "rajkumar"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rajkumargootam/tictactoe",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
