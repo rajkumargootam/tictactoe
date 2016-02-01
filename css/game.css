@@ -1,11 +1,23 @@
+.playArea {
+  height: 100%;
+  width: 100%;
+  margin: auto; }
+
 #board {
   margin: 0 auto;
   text-align: center;
   padding-top: 10em; }
+  #board .btn {
+    text-align: center; }
   #board .row .cells {
     cursor: pointer;
     display: inline-block;
-    width: 30vmin;
-    height: 30vmin;
-    background-color: #444;
+    width: 20vmin;
+    height: 20vmin;
+    background-color: #d35400;
     font-size: 12em; }
+  #board .indication {
+    margin-top: 2em;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px; }

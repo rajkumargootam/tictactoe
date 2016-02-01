@@ -5,24 +5,36 @@
     <title>tictactoe</title>
     <link rel="stylesheet" href="css/game.css">
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
-    <div id=board  class="col-xs-3">
-      <div class="row">
-        <div class="col-xs-4 cells">X</div>
-        <div class="col-xs-4 cells"></div>
-        <div class="col-xs-4 cells">O</div>
-      </div>
-      <div class="row">
-        <div class="col-xs-4 cells"></div>
-        <div class="col-xs-4 cells">O</div>
-        <div class="col-xs-4 cells"></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-4 cells">O</div>
-        <div class="col-xs-4 cells">X</div>
-        <div class="col-xs-4 cells">O</div>
+    <div class="playArea text-center">
+      <div id=board  class="btn">
+        <div class="row ">
+          <div class=" cells btn btn-primary"></div>
+          <div class=" cells btn btn-primary"></div>
+          <div class=" cells btn btn-primary"></div>
+        </div>
+        <div class="row btn ">
+          <div class=" cells btn btn-primary"></div>
+          <div class=" cells btn btn-primary"></div>
+          <div class=" cells btn btn-primary"></div>
+        </div>
+        <div class="row">
+          <div class=" cells btn btn-primary"></div>
+          <div class=" cells btn btn-primary"></div>
+          <div class=" cells btn btn-primary"></div>
+        </div>
+        <div class="indication">
+          Next
+        </div>
+        <div class="selector">
+          <div class="box">
+            <i class="fa fa-times"></i>
+            <i class="fa fa-circle-thin"></i>
+          </div>
+        </div>
       </div>
     </div>
   </body>
