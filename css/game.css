@@ -3,6 +3,11 @@
   width: 100%;
   margin: auto; }
 
+.cross {
+  background-image: url(../images/krestik.gif) !important;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 #board {
   margin: 0 auto;
   text-align: center;
@@ -14,7 +19,6 @@
     display: inline-block;
     width: 20vmin;
     height: 20vmin;
-    background-color: #d35400;
     font-size: 12em; }
   #board .indication {
     margin-top: 2em;

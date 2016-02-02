@@ -3,6 +3,11 @@
   width:100%;
   margin:auto;
 }
+.cross {
+  background-image: url(../images/krestik.gif) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #board {
   margin: 0 auto;
@@ -17,7 +22,10 @@
       display: inline-block;
       width: 20vmin;
       height: 20vmin;
-      background-color: #d35400;
+      //background-color: #d35400;
+      // background-image: url(../images/krestik.gif);
+      // background-repeat: no-repeat;
+      // background-size: cover;
       font-size: 12em;
     }
   }
